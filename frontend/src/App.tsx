@@ -19,7 +19,7 @@ export default class App extends Component<{}, AppState> {
   }
 
   onLogin = async (userId: string, password: string) => {
-    const endpoint = '//localhost:3000/login';
+    const endpoint = '//localhost:3000/users/login';
     const options = {
       method: 'POST',
       headers: {
